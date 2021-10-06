@@ -8,6 +8,7 @@ public class JokeServiceImpl implements JokeService {
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
     public JokeServiceImpl() {
+//        we initialize the variable here because we have not seen spring managed component yet
         this.chuckNorrisQuotes = new ChuckNorrisQuotes();
     }
 
